@@ -46,3 +46,9 @@ networks:
         external: true
         name: network
 ```
+
+### 其他说明
+
+由于我通常使用 Caddy 作为反向代理服务器，每个应用独立部署在 Docker 容器里，所以我在此镜像里单独跑了个 Nginx
+
+即：用户 -> Caddy -> Nginx -> PHP，介意勿用~
