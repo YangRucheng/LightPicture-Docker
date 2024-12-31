@@ -54,5 +54,5 @@ jobs:
               --file ./Dockerfile \
               --label image.source=LightPicture图床 \
               --platform linux/amd64,linux/arm64 \
-              --tag ccr.ccs.tencentyun.com/misaka-network/light-picture:latest \
+              --tag ccr.ccs.tencentyun.com/misaka-public/light-picture:latest \
               --push .
